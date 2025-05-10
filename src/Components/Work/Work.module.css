@@ -1,0 +1,128 @@
+.pic1{
+  background-image: url('../../assets//Images/img-1-C4nS0eD8.jpg');
+}
+.pic2{
+    background-image: url('../../assets//Images/img-2-D-4H1m4L.jpg');  
+}
+.pic3{
+    background-image: url('../../assets//Images/img-3-pR2ZEVY9.jpg');  
+}
+.pic4{
+    background-image: url('../../assets//Images/img-4-tHccITd-.jpg');  
+}
+.pic5{
+    background-image: url('../../assets//Images/img-5-lAucr__a.jpg');  
+}
+.pic6{
+    background-image: url('../../assets//Images/img-6-DFW03AZ3.jpg');  
+}
+.pics{
+  
+        background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+.more{
+    display: none;
+}
+.shadow1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #2c98f0;
+    opacity: 0;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+     opacity: 0;
+}
+/* .cover:hover {
+  border-radius: 4px;
+
+  left: 0;
+  position: absolute;
+  bottom: 0;
+
+  opacity: 1;
+
+  transition: all 0.5s ease 0s;
+} */
+/* .pic1:hover .cover {
+
+    opacity: 1;
+} */
+
+ .shadow1:hover
+ {
+    
+  left: 0;
+  position: absolute;
+  bottom: 0;
+
+  opacity: 1;
+
+  transition: all 0.5s ease 0s;
+    padding: 20px;
+    display: block;
+  
+   
+}
+.shadow1 h3{
+        font-family: Quicksand, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: transform .3s, opacity .3s, -webkit-transform .3s;
+    margin-bottom: 15px;
+}
+.shadow1 h3 a {
+    color: #fff;
+}
+.shadow1 span{
+        color: #ffffffb3;
+    font-size: 13px;
+    transition: transform .3s, opacity .3s, -webkit-transform .3s;
+}
+
+.shadow1 .icons {
+  top: 246px;
+    position: absolute;
+}
+
+
+.shadow1 .icons i {
+        font-size: 12px;
+    color: #333;
+    padding-right: 2px;
+}
+h3 a {
+        text-decoration: underline;
+}
+.icons span {
+        display: inline;
+    padding-right: 5px;
+}
+ .icons span a {
+    color: #333;
+    padding: 5px;
+    background: #ffffff80;
+    border-radius: 4px;
+   
+}
+.icons i{
+   font-size: 10px;
+    color: #333;
+}
+.newnav{
+    color: #000;
+   
+    padding-right: 1rem;
+}

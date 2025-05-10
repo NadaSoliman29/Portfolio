@@ -1,0 +1,124 @@
+
+
+.extrasidebar{
+    background-color: #f5f5f5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: inherit;
+    transition: transform .3s ease-in-out;
+    text-align: center;
+    z-index: 999;
+}
+
+
+.perImage{
+   width: 9.375rem;
+    height: 9.375rem;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    background-image: url(../../assets///Images/about-BgAkqdr2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.personalName{
+    font-weight: 700;
+    margin-bottom: .5rem;
+    font-size: 1.375rem;
+    font-family: Playfair Display, Georgia, serif;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.fontnav{
+    font-size: .75rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    font-family: Quicksand, Arial, sans-serif;
+    font-weight: 400;
+    color: #000000b3;
+    line-height: 1.8;
+    opacity: 0.8;
+}
+p a {
+    color: #2c98f0;
+}
+.fontLi{
+    font-family:Quicksand,Arial,sans-serif ;
+    font-weight: 500;
+    font-size: .75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.editLi:hover {
+  transition: width 0.3s ease;
+  border-bottom: 2px solid #0d6efd ;
+  color:#0d6efd ;
+
+}
+.editLi li {
+   
+position: relative;
+  
+}
+
+.editLi:hover li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: #0d6efd; /* Bootstrap primary */
+}
+  /* .editLi :hover {
+    position: absolute;
+    border-bottom: 2px solid #2c98f0 !important;
+
+     bottom: 0;
+   content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50%;
+    height: 1px;
+   
+    
+    transition: width .3s ease-out;
+    transition: width .3s ease-out;
+} 
+/* .editLi  ::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50%;
+    height: 1px;
+    transform: translate(-50%);
+    background-color: #2c98f0;
+    transition: width .3s ease-out;
+}  */ 
+
+/* li::before  {
+ position: absolute;
+    border-bottom: 2px solid #2c98f0 !important;
+
+     bottom: 0;
+   content: "";
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    width: 50%;
+    height: 1px;
+   
+    
+    transition: width .3s ease-out;
+    transition: width .3s ease-out;
+ 
+} */

@@ -1,0 +1,132 @@
+.progressTitle {
+    
+  font-size: 16px;
+    margin: 25px 0 0;
+     color: #999;
+    font-weight: 500;
+    font-family: Quicksand, Arial, sans-serif;
+}
+.progress {
+    height: 6px !important;
+    box-shadow: none !important;
+    background: #f2f3f7 !important;
+    overflow: visible !important;
+   
+}
+.progbar1{
+color: #2c98f0 !important;
+
+
+}
+.progressbars {
+    box-shadow: none;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #000;
+    font-weight: 600;
+    text-align: right;
+    position: relative;
+    overflow: visible;
+     border-radius: 8px;
+    float: left;
+    height: 100%;
+    transition: width .6s ease;
+}
+.progbar1 .progressbars:before {
+   
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.progrphoto:before {
+ content: "75%";
+}
+.progressbars:after {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    content: "";
+   
+    border-radius: 50%;
+}
+.progrphoto:after {
+ background: #2c98f0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+.progbar1 .progrphoto:after, .progbar1 .progrphoto {
+    color: #2c98f0 !important;
+    background: #2c98f0 !important;
+}
+
+.progQury{
+  color: #ec5453!important;
+  background-color: #ec5453 !important;
+}
+.progQury:after {
+ background: #ec5453;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+.progQury:before {
+ content: "60%";
+}
+.proghtml{
+  color: #f9bf3f!important;
+  background-color: #f9bf3f !important;
+}
+.proghtml:after {
+ background: #f9bf3f;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+.proghtml:before {
+ content: "80%";
+}
+.progcss{
+  color: #a84cb8!important;
+  background-color: #a84cb8 !important;
+}
+.progcss:after {
+ background: #a84cb8;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+.progcss:before {
+ content: "90%";
+}
+.progword{
+  color: #2fa499 !important;
+  background-color: #2fa499  !important;
+}
+.progword:after {
+ background: #2fa499 ;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+.progword:before {
+ content: "70%";
+}
+.progseo{
+  color: #4054b2!important;
+  background-color: #4054b2  !important;
+}
+.progseo:after {
+ background: #4054b2 ;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+.progseo:before {
+ content: "80%";
+}
